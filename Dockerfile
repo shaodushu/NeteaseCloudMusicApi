@@ -1,5 +1,8 @@
 FROM node:lts-alpine
 
+LABEL name = "NeteaseCloudMusicApi"
+LABEL version ="3.27.0"
+
 WORKDIR /app
 COPY . /app
 
